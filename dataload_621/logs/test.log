@@ -1,0 +1,37 @@
+2020-11-19 09:51:49 Thread-100001: TransferFiles transferCatalogFromTDH:/export/crm/ciyutest/->//export//use_wft//app//tdh_tools//expData//20201117//test.ciyutest//data//
+2020-11-19 09:51:49 Thread-100013:  Start:/export/crm/ciyutest/ --> //export//use_wft//app//tdh_tools//expData//20201117//test.ciyutest//data//ciyutest. Running Threads:1
+2020-11-19 09:51:49 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:51:59 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:52:09 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:52:19 Thread-100013: Finish:/export/crm/ciyutest/ --> //export//use_wft//app//tdh_tools//expData//20201117//test.ciyutest//data//ciyutest. FileSize:-0.00M。Use:30s
+2020-11-19 09:52:20 Thread-100001: cn.com.pub.PubException: 数据传输过程某个文件失败!
+	at cn.com.oracleTest.test.transferCatalogFromTDH(test.java:174)
+	at cn.com.oracleTest.test.main(test.java:665)
+

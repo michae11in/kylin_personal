@@ -1,0 +1,9 @@
+2020-07-13 03:06:47 Thread-100011: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at cn.com.pub.PubAPIs.getPassText(PubAPIs.java:351)
+	at cn.com.pub.PubAPIs.getFileSystem(PubAPIs.java:438)
+	at cn.com.dataHandle.TranfersDataExp.exportData(TranfersDataExp.java:83)
+	at cn.com.dataHandle.TransferSchedulerExp$SchedulerThread.run(TransferSchedulerExp.java:229)
+

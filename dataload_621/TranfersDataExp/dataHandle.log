@@ -1,0 +1,12 @@
+2020-07-13 03:06:47 Thread-100001: sql1:select job_id,db_name,tab_name,exec_type,exec_sql from transfer_exp_tactics_info t where enabled = '1' and tactics_id = 'test_pl' and t.job_id in ('0099999') and not exists (select 1 from transfer_exp_job_log t1 where t1.job_id = t.job_id and t1.etl_date= '20200713'  and  t1.task_status is not null and t1.batch_id='d1d22635adba4a2894b55630214e1b7a') order by exec_priority;
+2020-07-13 03:07:17 Thread-100001: sql1:select job_id,db_name,tab_name,exec_type,exec_sql from transfer_exp_tactics_info t where enabled = '1' and tactics_id = 'test_pl' and t.job_id in ('0099999') and not exists (select 1 from transfer_exp_job_log t1 where t1.job_id = t.job_id and t1.etl_date= '20200713'  and  t1.task_status is not null and t1.batch_id='d1d22635adba4a2894b55630214e1b7a') order by exec_priority;
+2020-07-13 03:07:17 Thread-100001: if_running:select table_name,job_id from transfer_exp_job_log where etl_date = '20200713' and tactics_id = 'test_pl' and task_status = 'running'  and job_id in ('0099999') ;
+2020-07-13 03:07:17 Thread-100001: test_pl：等待表落地数据！
+2020-11-17 17:01:33 Thread-100001: sql1:select job_id,db_name,tab_name,exec_type,exec_sql from transfer_exp_tactics_info t where enabled = '1' and tactics_id = 'rmi' and not exists (select 1 from transfer_exp_job_log t1 where t1.table_name = t.tab_name and t1.etl_date= '20201117'  and t1.task_status is not null ) order by exec_priority;
+2020-11-17 17:01:33 Thread-100001: if_running:select table_name,job_id from transfer_exp_job_log where etl_date = '20201117' and tactics_id = 'rmi' and task_status = 'running';
+2020-11-17 17:01:34 Thread-100001: rmi：等待表落地数据！
+2020-11-17 17:02:04 Thread-100001: 数据加载结束:rmi:0:10016
+2020-11-17 17:31:25 Thread-100001: sql1:select job_id,db_name,tab_name,exec_type,exec_sql from transfer_exp_tactics_info t where enabled = '1' and tactics_id = 'rmi' and not exists (select 1 from transfer_exp_job_log t1 where t1.table_name = t.tab_name and t1.etl_date= '20201117'  and t1.task_status is not null ) order by exec_priority;
+2020-11-17 17:31:25 Thread-100001: if_running:select table_name,job_id from transfer_exp_job_log where etl_date = '20201117' and tactics_id = 'rmi' and task_status = 'running';
+2020-11-17 17:31:26 Thread-100001: rmi：等待表落地数据！
+2020-11-17 17:31:56 Thread-100001: 数据加载结束:rmi:0:51148

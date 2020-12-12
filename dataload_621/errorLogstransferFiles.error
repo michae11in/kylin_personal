@@ -1,0 +1,118 @@
+2020-11-18 23:15:59 Thread-100010: /tmp/datafile_hist/20190901/crm/001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901/data/
+java.io.FileNotFoundException: \tmp\datafile_hist\20190901\crm\001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901\data (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.transferFile.TransferFiles$PushThread.openInputStreamKeep(TransferFiles.java:598)
+	at cn.com.transferFile.TransferFiles$PushThread.run_ft(TransferFiles.java:377)
+	at cn.com.transferFile.TransferFiles$PushThread.run(TransferFiles.java:339)
+
+2020-11-18 23:16:09 Thread-100010: /tmp/datafile_hist/20190901/crm/001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901/data/
+java.io.FileNotFoundException: \tmp\datafile_hist\20190901\crm\001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901\data (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.transferFile.TransferFiles$PushThread.openInputStreamKeep(TransferFiles.java:598)
+	at cn.com.transferFile.TransferFiles$PushThread.run_ft(TransferFiles.java:377)
+	at cn.com.transferFile.TransferFiles$PushThread.run(TransferFiles.java:339)
+
+2020-11-18 23:16:19 Thread-100010: /tmp/datafile_hist/20190901/crm/001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901/data/
+java.io.FileNotFoundException: \tmp\datafile_hist\20190901\crm\001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901\data (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.transferFile.TransferFiles$PushThread.openInputStreamKeep(TransferFiles.java:598)
+	at cn.com.transferFile.TransferFiles$PushThread.run_ft(TransferFiles.java:377)
+	at cn.com.transferFile.TransferFiles$PushThread.run(TransferFiles.java:339)
+
+2020-11-18 23:18:05 Thread-100010: /tmp/datafile_hist/20190901/crm/001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901/data/
+java.io.FileNotFoundException: \tmp\datafile_hist\20190901\crm\001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901\data (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.transferFile.TransferFiles$PushThread.openInputStreamKeep(TransferFiles.java:598)
+	at cn.com.transferFile.TransferFiles$PushThread.run_ft(TransferFiles.java:377)
+	at cn.com.transferFile.TransferFiles$PushThread.run(TransferFiles.java:339)
+
+2020-11-18 23:24:18 Thread-100010: /tmp/datafile_hist/20190901/crm/001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901/data/
+java.io.FileNotFoundException: \tmp\datafile_hist\20190901\crm\001_t_crm_ods_a_d_cd_exceed_ft3_ext_c_20190901\data (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.transferFile.TransferFiles$PushThread.openInputStreamKeep(TransferFiles.java:601)
+	at cn.com.transferFile.TransferFiles$PushThread.run_ft(TransferFiles.java:380)
+	at cn.com.transferFile.TransferFiles$PushThread.run(TransferFiles.java:342)
+
+2020-11-19 09:48:54 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:49:04 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:49:14 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:49:24 Thread-100001: cn.com.pub.PubException: 数据传输过程某个文件失败!
+	at cn.com.oracleTest.test.transferCatalogFromTDH(test.java:174)
+	at cn.com.oracleTest.test.main(test.java:665)
+
+2020-11-19 09:50:30 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:50:40 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:50:50 Thread-100013: /export/crm/ciyutest/
+java.io.FileNotFoundException: \export\crm\ciyutest (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at cn.com.oracleTest.test$PushThread.openInputStreamKeep(test.java:617)
+	at cn.com.oracleTest.test$PushThread.run_ft(test.java:396)
+	at cn.com.oracleTest.test$PushThread.run(test.java:358)
+
+2020-11-19 09:51:00 Thread-100001: cn.com.pub.PubException: 数据传输过程某个文件失败!
+	at cn.com.oracleTest.test.transferCatalogFromTDH(test.java:174)
+	at cn.com.oracleTest.test.main(test.java:665)
+
